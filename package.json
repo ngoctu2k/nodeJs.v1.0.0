@@ -1,0 +1,30 @@
+{
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "Ong chu Kim 2k project1",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ngoctu2k/nodeJs.v1.0.0.git"
+    },
+    "keywords": [
+        "2k",
+        "trantu"
+    ],
+    "author": "DoubleB",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ngoctu2k/nodeJs.v1.0.0/issues"
+    },
+    "homepage": "https://github.com/ngoctu2k/nodeJs.v1.0.0#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
