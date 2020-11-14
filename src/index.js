@@ -5,6 +5,7 @@ const path = require('path');
 const app = express();
 //cổng localhost
 const port = 3000;
+app.use(express.static(path.join(__dirname, 'public')));
 // HTTP morgan
 app.use(morgan('combined'));
 //hander bar
