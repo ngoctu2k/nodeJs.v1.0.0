@@ -4,6 +4,10 @@ const handlebars = require('express-handlebars');
 const path = require('path');
 //import route
 const route = require('./routes')
+    // import mongodb
+const db = require('./config/db')
+    //conectdb
+db.connect();
 const app = express();
 //cổng localhost
 const port = 3000;
