@@ -12,10 +12,7 @@ class SiteController {
             //     }
             // })
             Course.find({})
-
-
-            .then(courses => {
-
+                .then(courses => {
                     res.render('home', {
                         courses: mutipleMongooseToObject(courses)
                     })
